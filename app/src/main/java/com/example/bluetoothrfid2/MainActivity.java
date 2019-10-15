@@ -1,7 +1,6 @@
 package com.example.bluetoothrfid2;
 
 import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
@@ -19,9 +18,9 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -31,7 +30,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Set;
 import java.util.UUID;
 
@@ -241,7 +239,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Set<BluetoothDevice> bt = mBluetoothAdapter.getBondedDevices();
                 String[] strings = new String[bt.size()];
-                int index = 0;
+                int index = 0; 
 
                 if (bt.size()>0){
                     for (BluetoothDevice device : bt){
