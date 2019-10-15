@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlueToothRfid2</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_on">BT On</string>
+    <string name="bt_off">BT off</string>
+    <string name="show_devices">Show known devices</string>
+    <string name="scan_for_devices">Scan for devices</string>
+    <string name="bt_message_here">BT Message Here</string>
+</resources>
